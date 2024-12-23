@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #191414;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0cde5;
+    color: rgb(111, 36, 36);
+  }
+  
+  .hero {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Dr._A.P.J._Abdul_Kalam.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(69, 49, 49);
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(174, 180, 163, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #8e8787;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .button:hover {
+    background: #ff4c3b;
+  }
+  
+  .timeline {
+    padding: 50px 20px;
+    background: #803562;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .timeline-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(101, 81, 81, 0.1);
+    text-align: center;
+  }
+  
+  .timeline-item h3 {
+    margin-bottom: 10px;
+    color: #758e9b;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #558198;
+    color: rgb(156, 35, 35);
+  }
